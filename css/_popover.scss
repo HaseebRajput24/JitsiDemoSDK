@@ -1,0 +1,29 @@
+.popover {
+    margin: -16px -24px;
+    z-index: $popoverZ;
+
+    .popover-content {
+        margin: 16px 24px;
+        position: relative;
+
+        &.top {
+            bottom: 8px;
+        }
+
+        &.bottom {
+            top: 8px;
+        }
+
+        &.left {
+            right: 8px;
+        }
+
+        &.right {
+            left: 8px;
+        }
+    }
+}
+
+.excalidraw .popover {
+    margin: 0;
+}
